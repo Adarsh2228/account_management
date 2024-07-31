@@ -1,0 +1,98 @@
+/* ProfileForm.css */
+.page {
+    display: flex;
+    flex-direction: column; /* Stack the form and preview vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px; /* Add some padding */
+    overflow-y: auto; /* Enable vertical scrolling for the entire page */
+  }
+  
+  .form {
+    max-width: 800px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 40px; /* Space between form and preview */
+    overflow-y: auto; /* Enable vertical scrolling within the form */
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #495057;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .profilePhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover;
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .previewContainer {
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #7a7e82;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow-y: auto;
+}
+  
+  .profilePhotoPreview {
+    margin-bottom: 20px;
+  }
+  
+  .profilePhotoPreview img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular shape for preview */
+    object-fit: cover;
+  }
+  
