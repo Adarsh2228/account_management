@@ -27,7 +27,7 @@ export const loginUser = async (data) => {
   }
 };
 
-// Function to register a new user
+// Function   to register     a new   user
 export const registerUser = async (data) => {
   try {
     const apiUrl = `${BASE_URL}/api/auth/register`;

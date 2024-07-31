@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { loginUser } from '../utils/api';
-import './loginform.css'; // Import the CSS file
+import './loginform.css'; 
 
 const LoginForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();

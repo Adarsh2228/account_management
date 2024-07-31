@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ProfileForm.css'; // Ensure this file exists and is properly styled
+import './ProfileForm.css'; 
 
 const ProfileForm = () => {
   const [photo, setPhoto] = useState('https://via.placeholder.com/150');
@@ -9,7 +9,7 @@ const ProfileForm = () => {
   const [dob, setDob] = useState('');
   const [address, setAddress] = useState('');
   const [bloodGroup, setBloodGroup] = useState('');
-  const [submittedData, setSubmittedData] = useState(null); // State to hold submitted data
+  const [submittedData, setSubmittedData] = useState(null); // State for  holding  submitted data
 
   const handlePhotoChange = (e) => {
     const file = e.target.files[0];
@@ -24,7 +24,7 @@ const ProfileForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Save the form data to submittedData state
+    // Save the  data that entered in form
     setSubmittedData({
       photo,
       name,
@@ -130,7 +130,7 @@ const ProfileForm = () => {
         <button type="submit" className="button">Save Changes</button>
       </form>
 
-      {/* Display the submitted data below the original form */}
+      {/*for  Displaying  the submitted  below the original */}
       {submittedData && (
         <div className="previewContainer">
           <h2 className="title">Submitted Profile</h2>

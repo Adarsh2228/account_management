@@ -10,10 +10,10 @@ const userSchema = new mongoose.Schema({
   dob: { type: Date },
   address: { type: String },
   bloodGroup: { type: String },
-  profilePhoto: { type: String } // URL or base64 string
+  profilePhoto: { type: String } // URL 
 });
 
-// Method to update user details
+// Method to update user details OF USER 
 userSchema.statics.updateUser = async function(id, updates) {
   try {
     const user = await this.findByIdAndUpdate(id, updates, { new: true });

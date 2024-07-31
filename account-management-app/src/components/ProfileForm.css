@@ -1,13 +1,13 @@
-/* ProfileForm.css */
+
 .page {
     display: flex;
-    flex-direction: column; /* Stack the form and preview vertically */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f8f9fa;
-    padding: 20px; /* Add some padding */
-    overflow-y: auto; /* Enable vertical scrolling for the entire page */
+    padding: 20px;
+    overflow-y: auto; 
   }
   
   .form {
@@ -17,8 +17,8 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
-    margin-bottom: 40px; /* Space between form and preview */
-    overflow-y: auto; /* Enable vertical scrolling within the form */
+    margin-bottom: 40px; 
+    overflow-y: auto;
   }
   
   .title {
@@ -52,7 +52,7 @@
   .profilePhoto {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Circular shape */
+    border-radius: 50%; 
     object-fit: cover;
     border: 1px solid #ced4da;
     margin-bottom: 10px;
@@ -92,7 +92,7 @@
   .profilePhotoPreview img {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Circular shape for preview */
+    border-radius: 50%;
     object-fit: cover;
   }
   
